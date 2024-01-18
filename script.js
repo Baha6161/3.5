@@ -5,26 +5,26 @@ dayNumber = parseInt(dayNumber);
 
 switch(dayNumber) {
   case 1:
-    console.log("Понедельник: прийти на работу");
+    console.log("Понедельник: День бездельник");
     break;
   case 2:
-    console.log("Вторник: сесть за работу");
+    console.log("Вторник: Повторник");
     break;
   case 3:
-    console.log("Среда: начать работать");
+    console.log("Среда: Томада");
     break;
   case 4:
-    console.log("Четверг: закончить работать");
+    console.log("Четверг: День заботов ответ");
     break;
   case 5:
-    console.log("Пятница: приехать домой");
+    console.log("Пятница: Пьяница");
     break;
   case 6:
-    console.log("Суббота: отдых");
+    console.log("Суббота: Не работа");
     break;
   case 7:
-    console.log("Воскресенье: отдых с усталостью");
+    console.log("Воскресенье: День веселья");
     break;
   default:
-    console.log("Ошибка: Введите правильный порядковый номер дня недели (от 1 до 7)");
+    console.log("Ошибка: Ты не знаешь сколько в неделе дней??? Их 7!");
 }
